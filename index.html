@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMaker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@latest/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@latest/examples/jsm/"
+        }
+      }
+    </script>
+    <script language="JavaScript">
+      document.oncontextmenu = new Function("return false;");
+    </script>
+    <style>
+      .three-container {
+        width: 600px;
+        height: 400px;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section {
+        border: 1px solid black;
+      }
+      .canvas-debug canvas {
+        border: 1px solid purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rsprite-editor section"><h4>RSprite Editor</h4></div>
+    <div class="rsprite-gallery section"><h4>RSprite Gallery</h4></div>
+    <div class="canvas-debug section"></div>
+    <div class="rroom-editor section"><h4>RRoom Editor</h4></div>
+    <div class="rroom-gallery section"><h4>RRoom Gallery</h4></div>
+    <div class="rgame-options section"><h4>Game options</h4></div>
+    <div class="rplay section"><h4>RPlay</h4></div>
+    <!-- <div class="sprite-editor section"><h4>Sprite Editor</h4></div>
+    <div class="sprite-gallery section"><h4>Sprite Gallery</h4></div>
+    <div class="room-editor section"><h4>Room Editor</h4></div>
+    <div class="room-gallery section"><h4>Room Gallery</h4></div>
+    <div class="play section"><h4>Play Game</h4></div>
+    <div class="game section"><h4>Game options</h4></div> -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

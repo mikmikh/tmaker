@@ -1,0 +1,1033 @@
+{
+  "sprites": [
+    {
+      "name": "player",
+      "url": "/assets/sprites/player.png"
+    },
+    {
+      "name": "grass",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAv0lEQVR4AZzP7RHBABCEYZMKNEQ3RmFUwg8laEMHeG5mZy4RGWG87mP3NjGcb6dn53g/PDu0Pk/7YfP+XLeXDd7t6m8FrL5qB4sBu8e+rGqoRfupgC6mV+Pz92Due3MFEGGhduxC9kJCBcTwa02Q+ldAHuQtPgIsY1iq8Y0CvNLSEc0h9BgFWIAhzM39QaMARw7A9A066BXgEFkS9N+Ilz5MzcTAMIXmBrR6A8MczGBE782oAM0cQu0dQp+dHi8AAAD///Lefn8AAAAGSURBVAMAiySc7bAx77sAAAAASUVORK5CYII="
+    },
+    {
+      "name": "npc",
+      "url": "/assets/sprites/npc.png"
+    },
+    {
+      "name": "brick",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVR4AdyRwQmAMAxFS46uIjhYzw7ixXUcQnAVr8oTImnBEL3ZwqNp8xPIjyzzeMCU83UTR1C9JHPWbTevWCgUgcqJI6BHJ0PfJQ+EXr4YAfFbWmiAkx544uWLLSD2HNec1f3QRPxgBOXTCHhxN6CjwqfGT3etKbZA5xoK6j/7PgEAAP//eRlp3gAAAAZJREFUAwBgv7AeXYy2mwAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "trunk",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAe0lEQVR4AcySwQ2AIAxFiXt5dAcTZ3ACb67gEt49upBbCJ8Ap37ahJBA+BBoefwUJie0Y5v/7zmLsBbS4pYIiBHjQAHX/ZoQFGA6HZKqALiAQh7tFLCvi4PoyRSggBRXISogg9jcF6AVEK76OsANmgZ30PSR8AJZtTp4AAAA///YsMeAAAAABklEQVQDAC60H3s+VUOFAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "leaves",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0ElEQVR4AYyOuw0CMRBEjasgQ5eTUgIxKTkxFENGQBGUgeiAhJQuQG+lsQaffYelsXbnZ+fUObvz4QM6cqG7BXLMlTQLFHo/XtGjPZbqGhVMmatsrKOCYO2a+8VPQf36cjMkoL5ahy8FEvUi4j8oBZg97DNaD1HA6wrwZc2tEF7no8AJhSmCZwfMLeS6kSCQ2Wdxnik/wAj8NWagoM/iouB2ui4gagOFAnoLWWFEN1+GVVrfn9ABfOix2BU/YMcgKHjcb5MXoeN1lAInp+a65AsAAP//SxupJQAAAAZJREFUAwCDPGLcvFH5lQAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "roof",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR4AeyQMQ6AIBAEN/dpLYzGaOGvJRO4ZlsKKCDZHDPFBTb+dp5za7c6nLHu4FDnmWDBe+0i/ISZcca7g+O4PxGAmXHGu4Mn6IBn9CQoh7CEmXHGu4NXidL4EgsAAAD//xsuYMAAAAAGSURBVAMAjkSlzfrSedsAAAAASUVORK5CYII="
+    }
+  ],
+  "rooms": [
+    {
+      "name": "start",
+      "data": {
+        "0_0_0": {
+          "tile": "grass"
+        },
+        "1_0_0": {
+          "tile": "grass"
+        },
+        "1_1_0": {
+          "tile": null
+        },
+        "0_1_0": {
+          "tile": null
+        },
+        "2_0_0": {
+          "tile": "grass"
+        },
+        "0_0_1": {
+          "tile": "grass"
+        },
+        "1_0_1": {
+          "tile": "grass"
+        },
+        "2_0_1": {
+          "tile": "grass"
+        },
+        "3_0_1": {
+          "tile": "grass"
+        },
+        "3_0_0": {
+          "tile": "grass"
+        },
+        "4_0_0": {
+          "tile": "grass"
+        },
+        "4_0_1": {
+          "tile": "grass"
+        },
+        "5_0_0": {
+          "tile": "grass"
+        },
+        "6_0_0": {
+          "tile": "grass"
+        },
+        "5_0_1": {
+          "tile": "grass"
+        },
+        "5_1_1": {
+          "tile": null
+        },
+        "6_0_1": {
+          "tile": "grass"
+        },
+        "0_0_2": {
+          "tile": "grass"
+        },
+        "1_0_2": {
+          "tile": "grass"
+        },
+        "2_0_2": {
+          "tile": "grass"
+        },
+        "3_0_2": {
+          "tile": "grass"
+        },
+        "4_0_2": {
+          "tile": "grass"
+        },
+        "5_0_2": {
+          "tile": "grass"
+        },
+        "6_0_2": {
+          "tile": "grass"
+        },
+        "0_0_3": {
+          "tile": "grass"
+        },
+        "0_0_4": {
+          "tile": "grass"
+        },
+        "0_0_5": {
+          "tile": "grass"
+        },
+        "0_0_6": {
+          "tile": "grass"
+        },
+        "1_0_4": {
+          "tile": "grass"
+        },
+        "1_0_5": {
+          "tile": "grass"
+        },
+        "1_0_6": {
+          "tile": "grass"
+        },
+        "1_0_3": {
+          "tile": "grass"
+        },
+        "2_0_3": {
+          "tile": "grass"
+        },
+        "2_0_4": {
+          "tile": "grass"
+        },
+        "2_0_5": {
+          "tile": "grass"
+        },
+        "2_1_5": {
+          "tile": null
+        },
+        "2_0_6": {
+          "tile": "grass"
+        },
+        "3_0_3": {
+          "tile": "grass"
+        },
+        "3_0_4": {
+          "tile": "grass"
+        },
+        "3_0_5": {
+          "tile": "grass"
+        },
+        "3_0_6": {
+          "tile": "grass"
+        },
+        "4_0_3": {
+          "tile": "grass"
+        },
+        "4_0_4": {
+          "tile": "grass"
+        },
+        "4_0_5": {
+          "tile": "grass"
+        },
+        "5_0_3": {
+          "tile": "grass"
+        },
+        "5_0_4": {
+          "tile": "grass"
+        },
+        "5_0_5": {
+          "tile": "grass"
+        },
+        "4_0_6": {
+          "tile": "grass"
+        },
+        "5_0_6": {
+          "tile": "grass"
+        },
+        "6_0_3": {
+          "tile": "grass"
+        },
+        "6_0_4": {
+          "tile": "grass"
+        },
+        "6_0_5": {
+          "tile": "grass"
+        },
+        "6_0_6": {
+          "tile": "grass"
+        },
+        "7_0_0": {
+          "tile": "grass"
+        },
+        "7_0_1": {
+          "tile": "grass"
+        },
+        "7_0_2": {
+          "tile": "grass"
+        },
+        "7_0_3": {
+          "tile": "grass"
+        },
+        "7_0_4": {
+          "tile": "grass"
+        },
+        "7_0_5": {
+          "tile": "grass"
+        },
+        "7_0_6": {
+          "tile": "grass"
+        },
+        "0_0_7": {
+          "tile": "grass"
+        },
+        "1_0_7": {
+          "tile": "grass"
+        },
+        "2_0_7": {
+          "tile": "grass"
+        },
+        "3_0_7": {
+          "tile": "grass"
+        },
+        "4_0_7": {
+          "tile": "grass"
+        },
+        "5_0_7": {
+          "tile": "grass"
+        },
+        "6_0_7": {
+          "tile": "grass"
+        },
+        "7_0_7": {
+          "tile": "grass"
+        },
+        "1_1_1": {
+          "tile": "brick"
+        },
+        "2_1_1": {
+          "tile": "brick"
+        },
+        "3_1_1": {
+          "tile": "brick"
+        },
+        "4_1_1": {
+          "tile": "brick"
+        },
+        "4_1_2": {
+          "tile": "brick"
+        },
+        "4_1_3": {
+          "tile": "brick"
+        },
+        "3_1_3": {
+          "tile": "brick"
+        },
+        "1_1_3": {
+          "tile": "brick"
+        },
+        "2_1_3": {
+          "tile": "brick"
+        },
+        "1_1_2": {
+          "tile": "brick"
+        },
+        "1_2_1": {
+          "tile": "brick"
+        },
+        "1_2_2": {
+          "tile": "brick"
+        },
+        "1_2_3": {
+          "tile": "brick"
+        },
+        "3_2_3": {
+          "tile": "brick"
+        },
+        "2_2_3": {
+          "tile": "brick"
+        },
+        "4_2_3": {
+          "tile": "brick"
+        },
+        "4_2_2": {
+          "tile": "brick"
+        },
+        "4_2_1": {
+          "tile": "brick"
+        },
+        "2_2_1": {
+          "tile": "brick"
+        },
+        "3_2_1": {
+          "tile": "brick"
+        },
+        "1_3_3": {
+          "tile": "roof"
+        },
+        "2_3_3": {
+          "tile": "roof"
+        },
+        "3_3_3": {
+          "tile": "roof"
+        },
+        "3_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "4_3_3": {
+          "tile": "roof"
+        },
+        "1_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "2_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "4_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "1_3_1": {
+          "tile": "roof"
+        },
+        "2_3_1": {
+          "tile": "roof"
+        },
+        "3_3_1": {
+          "tile": "roof"
+        },
+        "4_3_1": {
+          "tile": "roof"
+        },
+        "1_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "2_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "3_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "4_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "1_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "2_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "3_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "4_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "1_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "2_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "3_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "4_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "4_3_2": {
+          "tile": "roof"
+        },
+        "4_4_2": {
+          "tile": "roof"
+        },
+        "4_5_2": {
+          "tile": null,
+          "slide": null
+        },
+        "1_3_2": {
+          "tile": "roof"
+        },
+        "1_4_2": {
+          "tile": "roof"
+        },
+        "1_5_2": {
+          "tile": null,
+          "sprite": "player",
+          "player": true
+        },
+        "2_5_2": {
+          "tile": null
+        },
+        "3_5_2": {
+          "tile": null,
+          "slide": null
+        },
+        "2_4_2": {
+          "tile": "roof"
+        },
+        "3_4_2": {
+          "tile": "roof"
+        },
+        "6_1_2": {
+          "sprite": "npc",
+          "message": "Hello"
+        },
+        "1_1_6": {
+          "sprite": null,
+          "tile": null
+        },
+        "1_2_6": {
+          "tile": null
+        },
+        "1_3_6": {
+          "tile": null
+        },
+        "1_4_6": {
+          "tile": null
+        },
+        "2_3_6": {
+          "tile": null
+        },
+        "2_1_6": {
+          "tile": null
+        },
+        "2_2_6": {
+          "tile": null
+        },
+        "3_1_6": {
+          "tile": null
+        },
+        "3_2_6": {
+          "tile": null
+        },
+        "4_1_6": {
+          "tile": null
+        },
+        "5_1_6": {
+          "tile": null
+        },
+        "4_2_6": {
+          "tile": null
+        },
+        "3_3_6": {
+          "tile": null
+        },
+        "2_4_6": {
+          "tile": null
+        },
+        "1_5_6": {
+          "tile": "grass"
+        },
+        "1_5_5": {
+          "tile": null
+        },
+        "1_6_5": {
+          "tile": "grass$0_1_1"
+        },
+        "1_6_4": {
+          "tile": "grass"
+        },
+        "2_6_4": {
+          "tile": "grass"
+        },
+        "3_6_4": {
+          "tile": "grass"
+        },
+        "4_6_4": {
+          "tile": "grass"
+        },
+        "2_5_6": {
+          "tile": "grass$1_1_0"
+        },
+        "3_4_6": {
+          "tile": "grass$1_1_0"
+        },
+        "4_3_6": {
+          "tile": "grass$1_1_0"
+        },
+        "5_2_6": {
+          "tile": "grass$1_1_0"
+        },
+        "6_1_6": {
+          "tile": "grass$1_1_0"
+        },
+        "4_7_4": {
+          "transition": "finish"
+        },
+        "7_1_1": {
+          "sprite": "trunk"
+        },
+        "5_1_0": {
+          "sprite": "trunk"
+        },
+        "5_2_0": {
+          "sprite": "trunk"
+        },
+        "7_2_1": {
+          "sprite": "trunk"
+        },
+        "5_1_4": {
+          "sprite": "trunk"
+        },
+        "7_3_1": {
+          "sprite": "leaves"
+        },
+        "5_3_0": {
+          "sprite": "leaves"
+        },
+        "5_2_4": {
+          "sprite": "leaves"
+        }
+      },
+      "size": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "finish",
+      "data": {
+        "0_0_0": {
+          "tile": "grass"
+        },
+        "1_0_0": {
+          "tile": "grass"
+        },
+        "1_1_0": {
+          "tile": null
+        },
+        "0_1_0": {
+          "tile": null
+        },
+        "2_0_0": {
+          "tile": "grass"
+        },
+        "0_0_1": {
+          "tile": "grass"
+        },
+        "1_0_1": {
+          "tile": "grass"
+        },
+        "2_0_1": {
+          "tile": "grass"
+        },
+        "3_0_1": {
+          "tile": "grass"
+        },
+        "3_0_0": {
+          "tile": "grass"
+        },
+        "4_0_0": {
+          "tile": "grass"
+        },
+        "4_0_1": {
+          "tile": "grass"
+        },
+        "5_0_0": {
+          "tile": "grass"
+        },
+        "6_0_0": {
+          "tile": "grass"
+        },
+        "5_0_1": {
+          "tile": "grass"
+        },
+        "5_1_1": {
+          "tile": null
+        },
+        "6_0_1": {
+          "tile": "grass"
+        },
+        "0_0_2": {
+          "tile": "grass"
+        },
+        "1_0_2": {
+          "tile": "grass"
+        },
+        "2_0_2": {
+          "tile": "grass"
+        },
+        "3_0_2": {
+          "tile": "grass"
+        },
+        "4_0_2": {
+          "tile": "grass"
+        },
+        "5_0_2": {
+          "tile": "grass"
+        },
+        "6_0_2": {
+          "tile": "grass"
+        },
+        "0_0_3": {
+          "tile": "grass"
+        },
+        "0_0_4": {
+          "tile": "grass"
+        },
+        "0_0_5": {
+          "tile": "grass"
+        },
+        "0_0_6": {
+          "tile": "grass"
+        },
+        "1_0_4": {
+          "tile": "grass"
+        },
+        "1_0_5": {
+          "tile": "grass"
+        },
+        "1_0_6": {
+          "tile": "grass"
+        },
+        "1_0_3": {
+          "tile": "grass"
+        },
+        "2_0_3": {
+          "tile": "grass"
+        },
+        "2_0_4": {
+          "tile": "grass"
+        },
+        "2_0_5": {
+          "tile": "grass"
+        },
+        "2_1_5": {
+          "tile": null,
+          "sprite": "npc",
+          "message": "This is the end"
+        },
+        "2_0_6": {
+          "tile": "grass"
+        },
+        "3_0_3": {
+          "tile": "grass"
+        },
+        "3_0_4": {
+          "tile": "grass"
+        },
+        "3_0_5": {
+          "tile": "grass"
+        },
+        "3_0_6": {
+          "tile": "grass"
+        },
+        "4_0_3": {
+          "tile": "grass"
+        },
+        "4_0_4": {
+          "tile": "grass"
+        },
+        "4_0_5": {
+          "tile": "grass"
+        },
+        "5_0_3": {
+          "tile": "grass"
+        },
+        "5_0_4": {
+          "tile": "grass"
+        },
+        "5_0_5": {
+          "tile": "grass"
+        },
+        "4_0_6": {
+          "tile": "grass"
+        },
+        "5_0_6": {
+          "tile": "grass"
+        },
+        "6_0_3": {
+          "tile": "grass"
+        },
+        "6_0_4": {
+          "tile": "grass"
+        },
+        "6_0_5": {
+          "tile": "grass"
+        },
+        "6_0_6": {
+          "tile": "grass"
+        },
+        "7_0_0": {
+          "tile": "grass"
+        },
+        "7_0_1": {
+          "tile": "grass"
+        },
+        "7_0_2": {
+          "tile": "grass"
+        },
+        "7_0_3": {
+          "tile": "grass"
+        },
+        "7_0_4": {
+          "tile": "grass"
+        },
+        "7_0_5": {
+          "tile": "grass"
+        },
+        "7_0_6": {
+          "tile": "grass"
+        },
+        "0_0_7": {
+          "tile": "grass"
+        },
+        "1_0_7": {
+          "tile": "grass"
+        },
+        "2_0_7": {
+          "tile": "grass"
+        },
+        "3_0_7": {
+          "tile": "grass"
+        },
+        "4_0_7": {
+          "tile": "grass"
+        },
+        "5_0_7": {
+          "tile": "grass"
+        },
+        "6_0_7": {
+          "tile": "grass"
+        },
+        "7_0_7": {
+          "tile": "grass"
+        },
+        "1_1_1": {
+          "tile": "brick"
+        },
+        "2_1_1": {
+          "tile": "brick"
+        },
+        "3_1_1": {
+          "tile": "brick"
+        },
+        "4_1_1": {
+          "tile": "brick"
+        },
+        "4_1_2": {
+          "tile": "brick"
+        },
+        "4_1_3": {
+          "tile": "brick"
+        },
+        "3_1_3": {
+          "tile": "brick"
+        },
+        "1_1_3": {
+          "tile": "brick"
+        },
+        "2_1_3": {
+          "tile": "brick"
+        },
+        "1_1_2": {
+          "tile": "brick"
+        },
+        "1_2_1": {
+          "tile": "brick"
+        },
+        "1_2_2": {
+          "tile": "brick"
+        },
+        "1_2_3": {
+          "tile": "brick"
+        },
+        "3_2_3": {
+          "tile": "brick"
+        },
+        "2_2_3": {
+          "tile": "brick"
+        },
+        "4_2_3": {
+          "tile": "brick"
+        },
+        "4_2_2": {
+          "tile": "brick"
+        },
+        "4_2_1": {
+          "tile": "brick"
+        },
+        "2_2_1": {
+          "tile": "brick"
+        },
+        "3_2_1": {
+          "tile": "brick"
+        },
+        "1_3_3": {
+          "tile": "roof"
+        },
+        "2_3_3": {
+          "tile": "roof"
+        },
+        "3_3_3": {
+          "tile": "roof"
+        },
+        "3_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "4_3_3": {
+          "tile": "roof"
+        },
+        "1_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "2_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "4_3_4": {
+          "tile": "roof$0_1_1"
+        },
+        "1_3_1": {
+          "tile": "roof"
+        },
+        "2_3_1": {
+          "tile": "roof"
+        },
+        "3_3_1": {
+          "tile": "roof"
+        },
+        "4_3_1": {
+          "tile": "roof"
+        },
+        "1_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "2_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "3_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "4_3_0": {
+          "tile": "roof$0_1_-1"
+        },
+        "1_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "2_4_1": {
+          "tile": "roof$0_1_-1",
+          "transition": null
+        },
+        "3_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "4_4_1": {
+          "tile": "roof$0_1_-1"
+        },
+        "1_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "2_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "3_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "4_4_3": {
+          "tile": "roof$0_1_1"
+        },
+        "4_3_2": {
+          "tile": "roof"
+        },
+        "4_4_2": {
+          "tile": "roof"
+        },
+        "4_5_2": {
+          "tile": null,
+          "slide": null
+        },
+        "1_3_2": {
+          "tile": "roof"
+        },
+        "1_4_2": {
+          "tile": "roof"
+        },
+        "1_5_2": {
+          "tile": null,
+          "sprite": "npc",
+          "player": null,
+          "message": "This is the end"
+        },
+        "2_5_2": {
+          "tile": null
+        },
+        "3_5_2": {
+          "tile": null,
+          "slide": null
+        },
+        "2_4_2": {
+          "tile": "roof"
+        },
+        "3_4_2": {
+          "tile": "roof"
+        },
+        "6_1_2": {
+          "sprite": "npc",
+          "message": "This is the end"
+        },
+        "1_1_6": {
+          "sprite": null,
+          "tile": null
+        },
+        "1_2_6": {
+          "tile": null
+        },
+        "1_3_6": {
+          "tile": null
+        },
+        "1_4_6": {
+          "tile": null
+        },
+        "2_3_6": {
+          "tile": null
+        },
+        "2_1_6": {
+          "tile": null
+        },
+        "2_2_6": {
+          "tile": null
+        },
+        "3_1_6": {
+          "tile": null
+        },
+        "3_2_6": {
+          "tile": null
+        },
+        "4_1_6": {
+          "tile": null
+        },
+        "5_1_6": {
+          "tile": null
+        },
+        "4_2_6": {
+          "tile": null
+        },
+        "3_3_6": {
+          "tile": null
+        },
+        "2_4_6": {
+          "tile": null
+        },
+        "1_5_6": {
+          "tile": "grass"
+        },
+        "1_5_5": {
+          "tile": null
+        },
+        "1_6_5": {
+          "tile": "grass$0_1_1"
+        },
+        "1_6_4": {
+          "tile": "grass"
+        },
+        "2_6_4": {
+          "tile": "grass"
+        },
+        "3_6_4": {
+          "tile": "grass",
+          "transition": null
+        },
+        "4_6_4": {
+          "tile": "grass",
+          "transition": null
+        },
+        "2_5_6": {
+          "tile": "grass$1_1_0"
+        },
+        "3_4_6": {
+          "tile": "grass$1_1_0"
+        },
+        "4_3_6": {
+          "tile": "grass$1_1_0"
+        },
+        "5_2_6": {
+          "tile": "grass$1_1_0"
+        },
+        "6_1_6": {
+          "tile": "grass$1_1_0"
+        },
+        "4_7_4": {
+          "transition": "finish",
+          "sprite": "npc",
+          "player": true
+        },
+        "7_1_1": {
+          "sprite": "trunk"
+        },
+        "5_1_0": {
+          "sprite": "trunk"
+        },
+        "5_2_0": {
+          "sprite": "trunk"
+        },
+        "7_2_1": {
+          "sprite": "trunk"
+        },
+        "5_1_4": {
+          "sprite": "trunk"
+        },
+        "7_3_1": {
+          "sprite": "leaves"
+        },
+        "5_3_0": {
+          "sprite": "leaves"
+        },
+        "5_2_4": {
+          "sprite": "leaves"
+        },
+        "5_7_4": {
+          "sprite": null
+        },
+        "7_1_5": {
+          "sprite": "npc",
+          "message": "This is the end"
+        },
+        "4_1_7": {
+          "sprite": "npc",
+          "message": "This is the end"
+        }
+      },
+      "size": [
+        8,
+        8,
+        8
+      ]
+    }
+  ]
+}
