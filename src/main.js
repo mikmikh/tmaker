@@ -166,7 +166,7 @@ async function main() {
   // rroomEditor3d.__addRoom("start");
 
   {
-    const resp = await fetch("../assets/games/game03.json", { mode: "no-cors" });
+    const resp = await fetch("assets/games/game03.json", { mode: "no-cors" });
     const data = await resp.json();
     // alert(JSON.stringify(data));
     importGame(data);
