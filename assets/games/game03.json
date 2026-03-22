@@ -2,7 +2,7 @@
   "sprites": [
     {
       "name": "player",
-      "url": "/assets/sprites/player.png"
+      "url": "assets/sprites/player.png"
     },
     {
       "name": "grass",
@@ -10,7 +10,7 @@
     },
     {
       "name": "npc",
-      "url": "/assets/sprites/npc.png"
+      "url": "assets/sprites/npc.png"
     },
     {
       "name": "brick",
