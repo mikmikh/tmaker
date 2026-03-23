@@ -74,7 +74,7 @@ export class RPlay3d {
     this.blocksData = new JBlocksDataRanges([]);
 
     this.debugMesh = new JBlocksDebug(this.size);
-    this.engine.scene.add(this.debugMesh.meshGroup);
+    // this.engine.scene.add(this.debugMesh.meshGroup);
 
     this.lights = new JLights({});
     this.engine.scene.add(this.lights.meshGroup);
